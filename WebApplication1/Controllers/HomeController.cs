@@ -11,6 +11,7 @@ namespace WebApplication1.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            string success = "I made a Git Repo!";
             return View();
         }
     }
